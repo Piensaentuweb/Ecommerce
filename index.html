@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELP - Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.png" alt="">
+        <nav class="menu">
+            <ul class="list-menu">
+                <li class="list-item">Home</li>
+                <li class="list-item">Productos</li>
+                <li class="list-item">Contacto</li>
+                <li class="list-item" id="myBtn">Agregar Producto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- HOMBRES -->
+        <div class="section-description">
+            <img src="images/hombre.jpeg" alt="">
+            <div class="desc-elements">
+                <h1>Hombres</h1>
+                <p>Descubre más productos</p>
+            </div>
+        </div>
+        <div class="section-products">
+       
+        </div>
+
+        <!-- MUJERES -->
+        <div class="section-description">
+            <div class="desc-elements">
+                <h1>Mujeres</h1>
+                <p>Descubre más productos</p>
+            </div>
+            <img src="images/mujeres.jpeg" alt="">
+        </div>
+
+        <div class="section-products">
+            <div class="product">
+                <img src="images/product1.jpg" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+            <div class="product">
+                <img src="images/product3.png" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+            <div class="product">
+                <img src="images/product4.jpg" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+            <div class="product">
+                <img src="images/product1.jpg" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="">
+                <p class="product-area">Juguetes</p>
+                <p class="product-name">Funko Hulk</p>
+                <p class="product-price">$1350.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="formulario">
+                <form action="">
+                    <label for="">Nombre del producto</label>
+                    <input type="text" id="pName" placeholder="Ingrese el nombre del producto">
+
+                    <label>Precio</label>
+                    <input type="number" id="pPrice" placeholder="Ingrese el precio">
+
+                    <label for="">Categoria del producto</label>
+                    <select name="" id="sproduct">
+                        <option value="Juguetes">Juguetes</option>
+                        <option value="Alimentos">Alimentos</option>
+                        <option value="Ferreteria">Ferreteria</option>
+                    </select>
+
+                    <input type="file" name="" id="pDocument">
+
+                    <button class="btnProduct">Agregar Producto</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
